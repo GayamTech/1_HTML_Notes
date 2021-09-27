@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+<a href="default.html">Visit our HTML tutorial.</a>
+
+<br>
+<br>
+
+<a href="html_images.asp" style="text-decoration:none;">See HTML Images</a>
+<!--Removes Underline-->
+
+<br>
+<br>
+
+<a href="html_images.asp" target="_blank">HTML Images</a>
+<!--Link Opens In A New Window-->
+
+<br>
+<br>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<!--Button Turned To Link-->
+
+
+<!--Creating Bookmarks-->
+<br>
+<br>
+<h2 id="C4">Chapter 4</h2>
+<!--Creates Bookmark-->
+
+<br>
+<br>
+<a href="#C4">Jump to Chapter 4</a>
+<!--Adds a link to the Bookmark-->
+
+<br>
+<br>
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+<!--Adds a link to the Bookmark on another page-->
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the GET method:</p>
+
+<form action="/action_page.php" target="_blank" method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -->
+<!-- Different attributes for the HTML <form> element.-->
+<!-- -->
+
+<!-- 
+accept-charset	Specifies the character encodings used for form submission
+action	Specifies where to send the form-data when a form is submitted
+
+autocomplete	Specifies whether a form should have autocomplete on or off
+
+enctype	Specifies how the form-data should be encoded when submitting it to the server (only for method="post")
+
+method	Specifies the HTTP method to use when sending form-data
+
+name	Specifies the name of the form
+
+novalidate	Specifies that the form should not be validated when submitted
+
+rel	Specifies the relationship between a linked resource and the current document
+
+target	Specifies where to display the response that is received after submitting the form
+-->
+<!-- -->
+<!-- The Method Attribute-->
+<!-- -->
+<!-- The method attribute specifies the HTTP method to be used when submitting the form data.-->
+<!-- The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").-->
+<!-- The default HTTP method when submitting form data is GET. -->
+<!-- -->
+<!-- This example uses the GET method when submitting the form data:-->
+<!-- -->
+<!-- Notes on GET:
+
+Appends the form data to the URL, in name/value pairs
+NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+The length of a URL is limited (2048 characters)
+Useful for form submissions where a user wants to bookmark the result
+GET is good for non-secure data, like query strings in Google-->
+<!-- -->
+<!-- -->
